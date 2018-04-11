@@ -3166,8 +3166,10 @@ msgstr "Assurez vous de garder cette clé secrete car elle donne accès à la ba
 msgid ""
 "Your current key is: <code>%s</code>.\n"
 "You can %s this key."
+msgstr ""
 "Votre clé actuelle est: <code>%s</code>.\n"
 "Vous pouvez %s cette clef."
+
 
 #: View/Events/automation.ctp:8
 msgid "reset"
@@ -3191,7 +3193,7 @@ msgstr "Export XML"
 
 #: View/Events/automation.ctp:14
 msgid "An automatic export of all events and attributes <small>(except file attachments)</small> is available under a custom XML format."
-msgstr "Une exportation automatique de tous les événements et attributs <small> (sauf les pièces jointes) </ small> est disponible sous un format XML personnalisé."
+msgstr "Une exportation automatique de tous les événements et attributs <small> (sauf les pièces jointes) </small> est disponible sous un format XML personnalisé."
 
 #: View/Events/automation.ctp:15;47;76
 msgid "You can configure your tools to automatically download the following file"
@@ -3222,6 +3224,7 @@ msgid ""
 "To include a tag in the results just write its names into this parameter. To exclude a tag prepend it with a '!'.\n"
 "You can also chain several tag commands together with the '&amp;&amp;' operator. Please be aware the colons (:) cannot be used in the tag search.\n"
 "Use semicolons instead (the search will automatically search for colons instead). For example, to include tag1 and tag2 but exclude tag3 you would use"
+msgstr ""
 
 #: View/Events/automation.ctp:37;64;89;115;138;211;280;317
 msgid "Events with the date set to a date after the one specified in the from field (format: 2015-02-15). This filter will use the date of the event."
@@ -3283,6 +3286,7 @@ msgstr "Evénements publiés au cours de la dernière période x, où x peut êt
 msgid ""
 "The CSV created when this setting is set to true will not contain the header row.\n"
 "<b>enforceWarninglist</b>: All attributes that have a hit on a warninglist will be excluded."
+msgstr ""
 
 #: View/Events/automation.ctp:71
 msgid "To export the attributes of all events that are of the type \"domain\", use the following syntax"
@@ -3294,7 +3298,7 @@ msgstr "Exportation des règles NIDS"
 
 #: View/Events/automation.ctp:75
 msgid "Automatic export of all network related attributes is available under the Snort rule format. Only <em>published</em> events and attributes marked as <em>IDS Signature</em> are exported."
-msgstr "L'exportation automatique de tous les attributs liés au réseau est disponible sous le format de règles Snort. Seuls les événements <em> publiés </ em> et les attributs marqués comme <em> Signature IDS </ em> sont exportés."
+msgstr "L'exportation automatique de tous les attributs liés au réseau est disponible sous le format de règles Snort. Seuls les événements <em> publiés </em> et les attributs marqués comme <em> Signature IDS </em> sont exportés."
 
 #: View/Events/automation.ctp:79
 msgid "The full API syntax is as follows"
@@ -3338,7 +3342,7 @@ msgstr "Exportation de base de données de hachage"
 
 #: View/Events/automation.ctp:101
 msgid "Automatic export of MD5/SHA1 checksums contained in file-related attributes. This list can be used to feed forensic software when searching for suspicious files. Only <em>published</em> events and attributes marked as <em>IDS Signature</em> are exported."
-msgstr "Exportation automatique des sommes de contrôle MD5 / SHA1 contenues dans les attributs liés aux fichiers Cette liste peut être utilisée pour alimenter le logiciel forensic lors de la recherche de fichiers suspects Seuls les événements <em> publiés </ em> et les attributs marqués <em> Signature IDS </ em> sont exportés. "
+msgstr "Exportation automatique des sommes de contrôle MD5 / SHA1 contenues dans les attributs liés aux fichiers Cette liste peut être utilisée pour alimenter le logiciel forensic lors de la recherche de fichiers suspects Seuls les événements <em> publiés </em> et les attributs marqués <em> Signature IDS </em> sont exportés. "
 
 #: View/Events/automation.ctp:102;186
 msgid "You can configure your tools to automatically download the following files"
@@ -3366,7 +3370,7 @@ msgstr "Vous pouvez exporter les événements MISP au format STIX de Mitre (pour
 
 #: View/Events/automation.ctp:127
 msgid "Search parameters can be passed to the function via URL parameters or by POSTing an XML or JSON object (depending on the return type). The following parameters can be passed to the STIX export tool: <code>id</code>, <code>withAttachments</code>, <code>tags</code>. Both <code>id</code> and <code>tags</code> can use the <code>&amp;&amp;</code> (and) and <code>!</code> (not) operators to build queries. Using the URL parameters, the syntax is as follows"
-msgstr "Les paramètres de recherche peuvent être transmis à la fonction via des paramètres URL ou en POSTant un objet XML ou JSON (en fonction du type de retour) Les paramètres suivants peuvent être transmis à l'outil d'exportation STIX: <code> id </ code>, <code> withAttachments </ code>, <code> tags </ code>. <code> id </ code> et <code> tags </ code> peuvent utiliser <code> & amp; </ code> (et) et <code>! </ code> (pas) opérateurs pour créer des requêtes.A l'aide des paramètres d'URL, la syntaxe est la suivante "
+msgstr "Les paramètres de recherche peuvent être transmis à la fonction via des paramètres URL ou en POSTant un objet XML ou JSON (en fonction du type de retour) Les paramètres suivants peuvent être transmis à l'outil d'exportation STIX: <code>id</code>, <code>withAttachments</code>, <code>tags</code>. <code>id</code> et <code>tags</code> peuvent utiliser <code>&amp;</code> (and) et <code>!</code> (not) opérateurs pour créer des requêtes.A l'aide des paramètres d'URL, la syntaxe est la suivante "
 
 #: View/Events/automation.ctp:130;169
 msgid "The event's ID"
@@ -3444,11 +3448,11 @@ msgstr "ou POST un objet XML ou JSON avec les options listées ci-dessus"
 
 #: View/Events/automation.ctp:184
 msgid "Text export"
-msgstr "Exportation de texte"
+msgstr "Export de texte"
 
 #: View/Events/automation.ctp:185
 msgid ">An export of all attributes of a specific type to a plain text file. By default only published and IDS flagged attributes are exported."
-msgstr "Une exportation de tous les attributs d'un type spécifique vers un fichier en texte brut. Par défaut, seuls les attributs publiés  IDS sont exportés."
+msgstr ">Un export de tous les attributs d'un type spécifique vers un fichier en texte brut. Par défaut, seuls les attributs publiés  IDS sont exportés."
 
 #: View/Events/automation.ctp:194
 msgid "To restrict the results by tags, use the usual syntax. Please be aware the colons (:) cannot be used in the tag search. Use semicolons instead (the search will automatically search for colons instead). To get ip-src values from events tagged tag1 but not tag2 use"
@@ -3456,7 +3460,7 @@ msgstr "Pour restreindre les résultats par des tags, utilisez la syntaxe habitu
 
 #: View/Events/automation.ctp:201
 msgid "As of version 2.3.38, it is possible to restrict the text exports on two additional flags. The first allows the user to restrict based on event ID, whilst the second is a boolean switch allowing non IDS flagged attributes to be exported. Additionally, choosing \"all\" in the type field will return all eligible attributes."
-msgstr "A partir de la version 2.3.38, il est possible de restreindre les exportations de texte sur deux drapeaux supplémentaires: le premier permet à l'utilisateur de restreindre en fonction de l'ID d'événement, le second est un commutateur booléen permettant d'exporter des attributs non IDS. En outre, en choisissant \"all \" dans le champ type retournera tous les attributs éligibles. "
+msgstr "A partir de la version 2.3.38, il est possible de restreindre les exportations de texte sur deux flags supplémentaires: le premier permet à l'utilisateur de restreindre en fonction de l'ID d'événement, le second est un commutateur booléen permettant d'exporter des attributs non IDS. En outre, choisir \"all\" dans le champ type retournera tous les attributs éligibles. "
 
 #: View/Events/automation.ctp:208
 msgid "To include a tag in the results just write its names into this parameter. To exclude a tag prepend it with a '!'."
@@ -3482,7 +3486,7 @@ msgstr ""
 
 #: View/Events/automation.ctp:223
 msgid "Bro IDS export"
-msgstr "L'exportation de Bro IDS"
+msgstr "Export de Bro IDS"
 
 #: View/Events/automation.ctp:224
 msgid "An export of all attributes of a specific bro type to a formatted plain text file. By default only published and IDS flagged attributes are exported."
@@ -3629,6 +3633,7 @@ msgstr "Les mots-clés false ou null doivent être utilisés pour les paramètre
 msgid ""
 "value, type, category and org are optional. It is possible to search for several terms in each category by joining them with the '&amp;&amp;' operator. It is also possible to negate a term with the '!' operator. Please be aware the colons (:) cannot be used in the tag search. Use semicolons instead (the search will automatically search for colons instead).\n"
 "For example, in order to search for all attributes created by your organisation that contain 192.168 or 127.0 but not 0.1 and are of the type ip-src, excluding the events that were tagged tag1 use the following syntax"
+msgstr ""
 
 #: View/Events/automation.ctp:367
 msgid "You can also use search for IP addresses using CIDR. Make sure that you use '|' (pipe) instead of '/' (slashes). Please be aware the colons (:) cannot be used in the tag search. Use semicolons instead (the search will automatically search for colons instead). See below for an example"
@@ -3667,7 +3672,7 @@ msgstr "Vous pouvez également télécharger des échantillons en connaissant so
 
 #: View/Events/automation.ctp:398
 msgid "You can also use this API to get all samples from events that contain the passed hash. For this functionality, just pass the \"allSamples\" flag along. Note that if you are getting all samples from matching events, you can use all supported hash types (%s) for the lookup.</p>"
-msgstr "Vous pouvez également utiliser cette API pour obtenir tous les exemples d'événements qui contiennent le hachage transmis .Pour cette fonctionnalité, passez simplement le drapeau \" allSamples \"Notez que si vous obtenez tous les échantillons d'événements correspondants, vous pouvez utiliser tous les types de hachage supportés ( %s) pour la recherche. </ p> "
+msgstr "Vous pouvez également utiliser cette API pour obtenir tous les exemples d'événements qui contiennent le hachage transmis .Pour cette fonctionnalité, passez simplement le drapeau \" allSamples \"Notez que si vous obtenez tous les échantillons d'événements correspondants, vous pouvez utiliser tous les types de hachage supportés ( %s) pour la recherche. </p> "
 
 #: View/Events/automation.ctp:399
 msgid "You can also get all the samples from an event with a given event ID, by passing along the eventID parameter. Make sure that either an event ID or a hash is passed along, otherwise an error message will be returned. Also, if no hash is set, the allSamples flag will get set automatically."
@@ -3918,6 +3923,7 @@ msgid ""
 "You are about to contact the organization that reported event %s.<br/>\n"
 "\t\t\t\tFeel free to add a custom message that will be sent to the reporting organization. <br/>\n"
 "\t\t\t\tYour email address and details about the event will be added automagically to the message."
+msgstr ""
 
 #: View/Events/contact.ctp:21
 msgid "Submit only to the person that created the event"
@@ -3980,7 +3986,7 @@ msgstr "Télécharger tout en XML"
 
 #: View/Events/export_alternate.ctp:12
 msgid "Click this to download all events and attributes that you have access to <small>(except file attachments)</small> in a custom XML format."
-msgstr "Cliquez ici pour télécharger tous les événements et attributs auxquels vous avez accès <small> (sauf les pièces jointes) </ small> dans un format XML personnalisé."
+msgstr "Cliquez ici pour télécharger tous les événements et attributs auxquels vous avez accès <small> (sauf les pièces jointes) </small> dans un format XML personnalisé."
 
 #: View/Events/export_alternate.ctp:17
 msgid "Download all signatures as CSV"
@@ -3988,7 +3994,7 @@ msgstr "Télécharger toutes les signatures au format CSV"
 
 #: View/Events/export_alternate.ctp:19
 msgid "Click this to download all attributes that are indicators and that you have access to <small>(except file attachments)</small> in CSV format."
-msgstr "Cliquez ici pour télécharger tous les attributs qui sont des indicateurs et que vous avez accès à <small> (sauf les pièces jointes) </ small> au format CSV."
+msgstr "Cliquez ici pour télécharger tous les attributs qui sont des indicateurs et que vous avez accès à <small> (sauf les pièces jointes) </small> au format CSV."
 
 #: View/Events/export_alternate.ctp:24
 msgid "Download all as CSV"
@@ -3996,7 +4002,7 @@ msgstr "Télécharger tout comme CSV"
 
 #: View/Events/export_alternate.ctp:26
 msgid "Click this to download all attributes that you have access to <small>(except file attachments)</small> in CSV format."
-msgstr "Cliquez ici pour télécharger tous les attributs auxquels vous avez accès <small> (sauf les pièces jointes) </ small> au format CSV."
+msgstr "Cliquez ici pour télécharger tous les attributs auxquels vous avez accès <small> (sauf les pièces jointes) </small> au format CSV."
 
 #: View/Events/export_alternate.ctp:31
 msgid "Download Suricata signatures"
@@ -4056,7 +4062,7 @@ msgstr ""
 
 #: View/Events/export_alternate.ctp:72
 msgid "Click on one of these buttons to download all the attributes with the matching type. This list can be used to feed forensic software when searching for susipicious files. Only <em>published</em> events and attributes marked as <em>IDS Signature</em> are exported."
-msgstr "Cliquez sur l'un de ces boutons pour télécharger tous les attributs avec le type correspondant .Cette liste peut être utilisée pour alimenter des logiciels médico-légaux lors de la recherche de fichiers malveillants Seuls les événements <em> publiés </ em> et les attributs marqués <em> La signature IDS </ em> est exportée. "
+msgstr "Cliquez sur l'un de ces boutons pour télécharger tous les attributs avec le type correspondant .Cette liste peut être utilisée pour alimenter des logiciels médico-légaux lors de la recherche de fichiers malveillants Seuls les événements <em> publiés </em> et les attributs marqués <em> La signature IDS </em> est exportée. "
 
 #: View/Events/filter_event_index.ctp:4 View/Servers/filter_event_index.ctp:4
 msgid "Filter Event Index"
@@ -4459,7 +4465,7 @@ msgstr "Cet événement a"
 
 #: View/Events/view.ctp:303
 msgid "correlations with data contained within the various feeds, however, due to the large number of attributes the actual feed correlations are not shown. Click (<a href=\"%s\\/overrideLimit:1\">here</a> to refresh the page with the feed data loaded."
-msgstr "corrélations avec les données contenues dans les différents flux, cependant, en raison du grand nombre d'attributs, les corrélations de flux réelles ne sont pas affichées. Cliquez sur <a href=\"%s\\/overrideLimite:1\"> ici </ a> pour actualiser la page avec les données de flux chargées. "
+msgstr "corrélations avec les données contenues dans les différents flux, cependant, en raison du grand nombre d'attributs, les corrélations de flux réelles ne sont pas affichées. Cliquez sur <a href=\"%s\\/overrideLimite:1\"> ici </a> pour actualiser la page avec les données de flux chargées. "
 
 #: View/Events/view.ctp:311
 msgid "Warning: Potential false positives"
@@ -5859,6 +5865,7 @@ msgstr "Le but des entrées d'importation Regexp"
 msgid ""
 "They can be used for several things, such as unifying the capitalisation of file paths for more accurate event correlation or to automatically censor the usernames and use system path variable names (changing C:\\Users\\UserName\\Appdata\\Roaming\\file.exe to %APPDATA%\\file.exe).<br />\n"
 "\t\tThe second use is blocking, if a regular expression is entered with a blank replacement, any event info or attribute value containing the expression will not be added. Please make sure the entered regexp expression follows the preg_replace pattern rules as described <a href=\"http://php.net/manual/en/function.preg-replace.php\">here</a>."
+msgstr ""
 
 #: View/Pages/doc/administration.ctp:70
 msgid "Administrators can add, edit or delete regular expression rules, which are made up of a regex pattern that the system searches for and a replacement for the detected pattern."
@@ -6358,11 +6365,11 @@ msgstr "Le type de l'action. Cela peut inclure: connexion / déconnexion pour le
 
 #: View/Pages/doc/administration.ctp:185
 msgid "The title of an event always includes the target type (Event, User, Attribute, Server), the target's ID and the target's name (for example: e-mail address for users, event description for events)."
-msgstr "Le titre d'un événement inclut toujours le type de cible (Evénement, Utilisateur, Attribut, Serveur), l'ID de la cible et le nom de la cible (par exemple: adresse e-mail pour les utilisateurs, description des événements).
+msgstr "Le titre d'un événement inclut toujours le type de cible (Evénement, Utilisateur, Attribut, Serveur), l'ID de la cible et le nom de la cible (par exemple: adresse e-mail pour les utilisateurs, description des événements)."
 
 #: View/Pages/doc/administration.ctp:186
 msgid "This field is only filled out for entries with the action being add or edit. The changes are detailed in the following format"
-msgstr "Ce champ n'est renseigné que pour les entrées dont l'action est en cours d'ajout ou de modification.
+msgstr "Ce champ n'est renseigné que pour les entrées dont l'action est en cours d'ajout ou de modification."
 
 #: View/Pages/doc/administration.ctp:188
 msgid "When the entry is about the creation of a new item (such as adding a new event) then the change will look like this for example"
@@ -6421,6 +6428,7 @@ msgid ""
 "The background workers are powered by <a href=\"https://github.com/kamisama/Cake-Resque\">CakeResque</a>, so all of the CakeResque commands work.\n"
 "\t\tTo start all of the workers needed by MISP go to your <code>/var/www/MISP/app/Console/worker</code> (assuming a standard installation path) and execute start.sh.\n"
 "\t\tTo interact with the workers, here is a list of useful commands. Go to your <code>/var/www/MISP/app/Console</code> (assuming a standard installation path) and execute one of the following commands as a parameter to <code>./cake CakeResque.CakeResque</code> (for example: <code>./cake CakeResque.CakeResque tail</code>)"
+msgstr ""
 
 #: View/Pages/doc/administration.ctp:212
 msgid "tail"
@@ -7236,6 +7244,7 @@ msgstr "Reposer l'API"
 msgid ""
 "The process of entering an event can be split into 3 phases, the creation of the event itself, populating it with attributes\n"
 "and attachments and finally publishing it."
+msgstr"" 
 
 #: View/Pages/doc/using_the_system.ctp:30
 msgid "During this first step, you will be create a basic event without any actual attributes, but storing general information such as a description, time and risk level of the incident. To start creating the event, click on the New Event button on the left and fill out the form you are presented with. The following fields need to be filled out"
@@ -7495,7 +7504,7 @@ msgstr "Freetexte"
 
 #: View/Pages/doc/using_the_system.ctp:114
 msgid "Just paste a line-break separated list of indicators into the freetext import tool."
-msgstr "Il suffit de coller une liste d 'indicateurs séparés par des sauts de ligne dans l' outil d 'importation freetext."
+msgstr "Il suffit de coller une liste d 'indicateurs séparés par des sauts de ligne dans l'outil d'importation freetext."
 
 #: View/Pages/doc/using_the_system.ctp:115
 msgid "If you have a list of indicators that you would like to quickly generate attributes out of then the Free-text import tool is just what you need. Simply paste a list of indicators (separated by line-breaks into this tool)."
@@ -7503,7 +7512,7 @@ msgstr "Si vous avez une liste d'indicateurs dont vous souhaitez générer rapid
 
 #: View/Pages/doc/using_the_system.ctp:116
 msgid "MISP will often find several valid category/type combinations for the values. Do last minute adjustments on the result page."
-msgstr "MISP trouvera souvent plusieurs combinaisons de catégories / types valides pour les valeurs, ainsi que des ajustements de dernière minute sur la page de résultats."
+msgstr "MISP trouvera souvent plusieurs combinaisons de catégories / types valides pour les valeurs. Faites ajustements de dernière minute sur la page de résultats."
 
 #: View/Pages/doc/using_the_system.ctp:117
 msgid "Since there are several category / type combinations that can be valid for a lot of values, MISP will suggest the most common settings. You can alter the category / type / IDS fields manually if you disagree with the results. The options will be restricted to valid category/type combinations for the value that you have entered."
@@ -7519,7 +7528,7 @@ msgstr "Sélectionnez une combinaison catégorie / type et collez la liste mise 
 
 #: View/Pages/doc/using_the_system.ctp:121
 msgid "Simply select the desired category / type combination, choose whether the attributes should be marked for IDS exports and paste the new list of indicators into the textarea. Attributes of the same category/type that are present in the event but not the new list will be removed, values in the pasted list that do not yet exist as attributes will be created as attributes and values that already have matching attributes will be left untouched."
-msgstr "Sélectionner simplement la combinaison catégorie / type souhaitée, choisir si les attributs doivent être marqués pour les exportations IDS et coller la nouvelle liste d 'indicateurs dans la zone de texte Attributs de la même catégorie / type présents dans l' événement mais pas la nouvelle liste sera supprimé, les valeurs de la liste collée qui n'existent pas encore en tant qu'attributs seront créées en tant qu'attributs et les valeurs qui ont déjà des attributs correspondants ne seront pas touchées. "
+msgstr "Sélectionnez simplement la combinaison catégorie / type souhaitée, choisissez si les attributs doivent être marqués pour les exportations IDS et coller la nouvelle liste d'indicateurs dans la zone de texte. Les attributs de la même catégorie / type présents dans l'événement mais pas dans la nouvelle liste seront supprimés, les valeurs de la liste collée qui n'existent pas encore en tant qu'attributs seront créées en tant qu'attributs et les valeurs qui ont déjà des attributs correspondants ne seront pas touchées. "
 
 #: View/Pages/doc/using_the_system.ctp:122
 msgid "Add attachments to the event"
@@ -7558,7 +7567,7 @@ msgstr "En cliquant sur Parcourir, vous pouvez parcourir votre système de fichi
 
 #: View/Pages/doc/using_the_system.ctp:131
 msgid "This check-box marks the file as malware and as such it will be zipped and passworded, to protect the users of the system from accidentally downloading and executing the file. Make sure to tick this if you suspect that the filed is infected, before uploading it."
-msgstr "Cette case à cocher marque le fichier comme un malware et sera donc compressé et protégé par un mot de passe, afin de protéger les utilisateurs du système contre le téléchargement accidentel et l'exécution du fichier. avant de le télécharger. "
+msgstr "Cette case à cocher marque le fichier comme un malware et celui-ci sera donc compressé et protégé par un mot de passe, afin de protéger les utilisateurs du système contre le téléchargement accidentel et l'exécution du fichier. avant de le télécharger. "
 
 #: View/Pages/doc/using_the_system.ctp:135
 msgid "Propose a change to an event that belongs to another organisation"
@@ -7566,7 +7575,7 @@ msgstr "Proposer une modification à un événement appartenant à une autre org
 
 #: View/Pages/doc/using_the_system.ctp:136
 msgid "If you would like to propose a modification to an attribute, or to propose some additional attributes to the creating organisation, you can do this with the buttons that replace the add attribute field on the left and the edit icon on the right end of each listed attribute in the event view. The creating organisation of the event will be able to see any proposals and discard or accept the changes."
-msgstr "Si vous souhaitez proposer une modification à un attribut, ou proposer des attributs supplémentaires à l'organisation créatrice, vous pouvez le faire avec les boutons qui remplacent le champ d'attribut d'ajout à gauche et l'icône d'édition à droite de chaque attribut répertorié dans la vue des événements L'organisation créatrice de l'événement pourra voir toutes les propositions et rejeter ou accepter les modifications. "
+msgstr "Si vous souhaitez proposer une modification à un attribut, ou proposer des attributs supplémentaires à l'organisation créatrice, vous pouvez le faire avec les boutons qui remplacent le champ d'attribut d'ajout à gauche et l'icône d'édition à droite de chaque attribut répertorié dans la vue des événements. L'organisation créatrice de l'événement pourra voir toutes les propositions et rejeter ou accepter les modifications. "
 
 #: View/Pages/doc/using_the_system.ctp:137
 msgid "Propose attribute"
@@ -7574,11 +7583,11 @@ msgstr "Proposer un attribut"
 
 #: View/Pages/doc/using_the_system.ctp:137
 msgid "An attribute with a proposal attached will turn blue and the proposal itself will be grey. If there is a grey proposal without a blue attribute infront of it, it means that someone has proposed a new attribute"
-msgstr "Un attribut avec une proposition attachée deviendra bleu et la proposition elle-même sera grise S'il y a une proposition grise sans attribut bleu en-deçà, cela signifie que quelqu'un a proposé un nouvel attribut"
+msgstr "Un attribut avec une proposition attachée deviendra bleu et la proposition elle-même sera grise. S'il y a une proposition grise sans attribut bleu en-deçà, cela signifie que quelqu'un a proposé un nouvel attribut"
 
 #: View/Pages/doc/using_the_system.ctp:138
 msgid "If the organisation that has created the event is on another connected server, they will be able to accept the proposal once they initiate a pull and receive your proposal. After this they can republish the event, sending the altered attribute back to your instance."
-msgstr "Si l'organisation qui a créé l'événement se trouve sur un autre serveur connecté, ils pourront accepter la proposition une fois qu'ils auront lancé et reçu votre proposition, après quoi ils pourront republier l'événement, renvoyant l'attribut altéré à votre instance "
+msgstr "Si l'organisation qui a créé l'événement se trouve sur un autre serveur connecté, ils pourront accepter la proposition une fois qu'ils auront initié un \"pull\" et reçu votre proposition, après quoi ils pourront republier l'événement, renvoyant l'attribut altéré à votre instance "
 
 #: View/Pages/doc/using_the_system.ctp:140
 msgid "Populate from OpenIOC"
@@ -7594,7 +7603,7 @@ msgstr "OpenIOC1"
 
 #: View/Pages/doc/using_the_system.ctp:142
 msgid "The import tool will list the successful and failed entries after the process is done."
-msgstr "L 'outil d' importation listera les entrées réussies et échouées après que le processus soit terminé."
+msgstr "L'outil d'importation listera les entrées réussies et échouées après que le processus soit terminé."
 
 #: View/Pages/doc/using_the_system.ctp:143
 msgid "OpenIOC2"
@@ -7610,7 +7619,7 @@ msgstr "Remplir depuis ThreatConnect"
 
 #: View/Pages/doc/using_the_system.ctp:146
 msgid "You can also import the data from a ThreatConnect export csv file. The following columns are used by the import tool (and are thus mandatory fields to select during the export)"
-msgstr "Vous pouvez également importer les données d'un fichier csv d'exportation ThreatConnect Les colonnes suivantes sont utilisées par l'outil d'import (et sont donc des champs obligatoires à sélectionner lors de l'export)"
+msgstr "Vous pouvez également importer les données d'un fichier csv d'exportation ThreatConnect. Les colonnes suivantes sont utilisées par l'outil d'import (et sont donc des champs obligatoires à sélectionner lors de l'export)"
 
 #: View/Pages/doc/using_the_system.ctp:146
 msgid "Confidence"
@@ -7632,11 +7641,11 @@ msgstr "Publier un événement"
 
 #: View/Pages/doc/using_the_system.ctp:150
 msgid "Once all the attributes and attachments that you want to include with the event are uploaded / set, it is time to finalise its creation by publishing the event (click on publish event in the event view). This will alert the eligible users of it (based on the private-controls of the event and its attributes/attachments and whether they have auto-alert turned on), push the event to instances that your instance connects to and propagate it further based on the distribution rules. It also readies the network related attributes for NIDS signature creation (through the NIDS signature export feature, for more information, go to the export section.)."
-msgstr "Une fois que tous les attributs et pièces jointes que vous voulez inclure dans l 'événement sont téléchargés / définis, il est temps de finaliser sa création en publiant l' événement (cliquez sur \"Publier l 'événement\" dans la vue des événements). il (en fonction des contrôles privés de l'événement et de ses attributs / pièces jointes et de l'activation de l'alerte automatique), placez l'événement dans les instances auxquelles votre instance se connecte et propagez-le en fonction des règles de distribution. les attributs liés au réseau pour la création de signature NIDS (via la fonction d'exportation de signature NIDS, pour plus d'informations, accédez à la section d'exportation). "
+msgstr "Une fois que tous les attributs et pièces jointes que vous voulez inclure dans l 'événement sont téléchargés / définis, il est temps de finaliser sa création en publiant l' événement (cliquez sur \"Publier l 'événement\" dans la vue des événements). Cela alertera les utilisateurs éligibles (en fonction des contrôles privés de l'événement et de ses attributs / pièces jointes et de l'activation de l'alerte automatique), pushera l'événement dans les instances auxquelles votre instance se connecte et le propagera en fonction des règles de distribution. Cela permet aussi de préparer les les attributs relatifs au réseau pour la création d'une signature NIDS (via la fonction d'exportation de signature NIDS, pour plus d'informations, accédez à la section d'exportation). "
 
 #: View/Pages/doc/using_the_system.ctp:151
 msgid "There is an alternate way of publishing an event without alerting any other users, by using the \"publish (no email)\" button. This should only be used for minor edits (such as correcting a typo)."
-msgstr "Il existe un moyen alternatif de publier un événement sans alerter les autres utilisateurs, en utilisant le bouton \"Publier (pas d'email)\" Cela ne devrait être utilisé que pour des modifications mineures (comme la correction d'une faute de frappe)."
+msgstr "Il existe un moyen alternatif de publier un événement sans alerter les autres utilisateurs, en utilisant le bouton \"Publier (sans email)\" Cela ne devrait être utilisé que pour des modifications mineures (comme la correction d'une faute de frappe)."
 
 #: View/Pages/doc/using_the_system.ctp:153
 msgid "If your instance has background jobs enabled then the event might not get published immediately."
@@ -7652,11 +7661,11 @@ msgstr "Pour lister tous les événements"
 
 #: View/Pages/doc/using_the_system.ctp:158
 msgid "On the left menu bar, the option \"List events\" will generate a list of the last 60 events. While the attributes themselves aren't shown in this view, the following pieces of information can be seen"
-msgstr "Dans la barre de menu de gauche, l'option \" Liste des événements \"générera une liste des 60 derniers événements, alors que les attributs eux-mêmes n'apparaissent pas dans cette vue."
+msgstr "Dans la barre de menu de gauche, l'option \"Lister les événements \"générera une liste des 60 derniers événements. Alors que les attributs eux-mêmes n'apparaissent pas dans cette vue, les informations suivantes peuvent être montrées"
 
 #: View/Pages/doc/using_the_system.ctp:159
 msgid "List events"
-msgstr "Liste les événements"
+msgstr "Lister les événements"
 
 #: View/Pages/doc/using_the_system.ctp:159
 msgid "This is the list of events in the system. Use the buttons to the right to alter or view any of the events."
@@ -7676,7 +7685,7 @@ msgstr "Propriétaire Org"
 
 #: View/Pages/doc/using_the_system.ctp:163
 msgid "The organisation that owns the event on this instance. This field is only visible to administrators."
-msgstr "L'organisation qui possède l'événement sur cette instance .Ce champ n'est visible qu'aux administrateurs."
+msgstr "L'organisation qui possède l'événement sur cette instance. Ce champ n'est visible qu'aux administrateurs."
 
 #: View/Pages/doc/using_the_system.ctp:164
 msgid "The event's ID number, assigned by the system when the event was first entered (or in the case of an event that was synchronized, when it was first copied over - more on synchronisation in chapter xy)"
@@ -7696,7 +7705,7 @@ msgstr "Le nombre d'attributs que l'événement a."
 
 #: View/Pages/doc/using_the_system.ctp:167
 msgid "The e-mail address of the event's reporter. This is not visible to regular users. Organisation administrators can see the e-mail addresses of their own organisation's users."
-msgstr "L'adresse e-mail du reporter de l'événement .Ce n'est pas visible par les utilisateurs réguliers. Les administrateurs de l'organisation peuvent voir les adresses e-mail des utilisateurs de leur propre organisation. "
+msgstr "L'adresse e-mail du rapporteur de l'événement. Ce n'est pas visible par les utilisateurs réguliers. Les administrateurs de l'organisation peuvent voir les adresses e-mail des utilisateurs de leur propre organisation. "
 
 #: View/Pages/doc/using_the_system.ctp:168
 msgid "The date of the attack."
@@ -7732,7 +7741,7 @@ msgstr "Ce champ indique les privilèges de partage de l'événement. <a href=\"
 
 #: View/Pages/doc/using_the_system.ctp:188
 msgid "The controls that the user has to view or modify the event. The possible actions that are available (depending on user privileges - %s to find out more about privileges)"
-msgstr "Les contrôles que l'utilisateur doit voir ou modifier l'événement Les actions possibles qui sont disponibles (en fonction des privilèges de l'utilisateur - %s pour en savoir plus sur les privilèges)"
+msgstr "Les contrôles que l'utilisateur a pour voir ou modifier l'événement. Les actions possibles qui sont disponibles (en fonction des privilèges de l'utilisateur - %s pour en savoir plus sur les privilèges)"
 
 #: View/Pages/doc/using_the_system.ctp:191
 msgid "Publishing an event will have several effects: The system will e-mail all eligible users that have auto-alert turned on (and having the needed privileges for the event, depending on its private classification) with a description of your newly published event, it will be flagged as published and it will be pushed to all eligible servers (to read more about synchronisation between servers, have a look at the %s)."
@@ -7744,7 +7753,7 @@ msgstr "section sur les serveurs de connexion"
 
 #: View/Pages/doc/using_the_system.ctp:192
 msgid "Clicking on the edit button will bring up the same screen as the one used for creating new events, with the exception that all fields come filled out with the data of the event that is being edited. The distribution of an event can only be edited if you are a user of the creating organisation of the event. For more information on this view, refer to the section on <a href=\"#create\">creating an event</a>."
-msgstr "Cliquer sur le bouton Modifier pour afficher le même écran que celui utilisé pour la création de nouveaux événements, à l'exception que tous les champs sont remplis avec les données de l'événement en cours de modification. édité si vous êtes un utilisateur de l'organisation de création de l'événement.Pour plus d'informations sur cette vue, reportez-vous à la section sur <a href=\"#create\"> créer un événement </a>. "
+msgstr "Cliquer sur le bouton Modifier pour afficher le même écran que celui utilisé pour la création de nouveaux événements, à l'exception que tous les champs sont remplis avec les données de l'événement en cours de modification. La distribution d'un évènement ne peut être éditée que si vous êtes un utilisateur de l'organisation de création de l'événement. Pour plus d'informations sur cette vue, reportez-vous à la section sur <a href=\"#create\">Créer un événement</a>. "
 
 #: View/Pages/doc/using_the_system.ctp:193
 msgid "The system will prompt you before erasing the unwanted event."
@@ -7760,7 +7769,7 @@ msgstr "Il est également possible de filtrer les événements affichés en cliq
 
 #: View/Pages/doc/using_the_system.ctp:200
 msgid "Event view"
-msgstr "Affichage de l'événement"
+msgstr "Vue de l'événement"
 
 #: View/Pages/doc/using_the_system.ctp:201
 msgid "This view includes the basic information about an event, a link to related events, all attributes and attachments with tools to modify or delete them and extra functions for publishing the event or getting in touch with the event's reporter."
@@ -7788,7 +7797,7 @@ msgstr "Affiche une liste des organisations qui ont contribué à l'événement 
 
 #: View/Pages/doc/using_the_system.ctp:208
 msgid "A list of tags associated with the event. Clicking a tag will show a list of events with the same tag attached. The little cross next to each tag allows you to remove the tag from the event, whilst the '+' button allows you to assign a tag. For the latter two options to be visible, you have to have tagging permission."
-msgstr "Une liste de tags associée à l'événement .Cliquer sur une étiquette affichera une liste d'événements avec la même étiquette attachée.La petite croix à côté de chaque tag vous permet de retirer l'étiquette de l'événement, tandis que le bouton '+' permet Pour que les deux dernières options soient visibles, vous devez avoir une autorisation de marquage. "
+msgstr "Une liste de tags associée à l'événement. Cliquer sur une étiquette affichera une liste d'événements avec la même étiquette attachée. La petite croix à côté de chaque tag vous permet de retirer le tag de l'événement, tandis que le bouton '+' d'ajouter un tag. Pour que les deux dernières options soient visibles, vous devez avoir une autorisation de marquage. "
 
 #: View/Pages/doc/using_the_system.ctp:209
 msgid "The date of detection, set by the user that creates the event, not to be confused with the creation date of the event."
@@ -7804,15 +7813,15 @@ msgstr "Le statut de l'analyse."
 
 #: View/Pages/doc/using_the_system.ctp:212
 msgid "This shows the distribution rules applied to this event, controlling whether only the creating organisation can see (Your organisation only) it or everyone on the instance (This community only). The two remaining settings allow the event to be propagated to organisations on remote connected instances."
-msgstr "Cela montre les règles de distribution appliquées à cet événement, en contrôlant si seulement l'organisation créatrice peut voir (votre organisation seulement) elle ou tout le monde sur l'instance (cette communauté seulement) Les deux paramètres restants permettent de propager l'événement aux organisations instances connectées à distance. "
+msgstr "Cela montre les règles de distribution appliquées à cet événement, en contrôlant si seulement l'organisation créatrice peut voir (votre organisation seulement) elle ou tout le monde sur l'instance (cette communauté seulement). Les deux paramètres restants permettent de propager l'événement aux organisations instances connectées à distance. "
 
 #: View/Pages/doc/using_the_system.ctp:213
 msgid "A short description of the event itself. Make sure not to put information in here that could be used for correlation purposes and be better suited as an Attribute."
-msgstr "" "Une brève description de l'événement lui-même: assurez-vous de ne pas mettre ici d'informations qui pourraient être utilisées à des fins de corrélation et qui seraient mieux adaptées en tant qu'attribut."
+msgstr "Une brève description de l'événement lui-même: assurez-vous de ne pas mettre ici d'informations qui pourraient être utilisées à des fins de corrélation et qui seraient mieux adaptées en tant qu'attribut."
 
 #: View/Pages/doc/using_the_system.ctp:214
 msgid "Whether the event has been published or not. Publishing allows the attributes of the event to be used for all eligible exports and it notifies users that have subscribed to the event alerts. Also, a publish initiates a push to all eligible instances."
-msgstr "Que l'événement ait été publié ou non La publication permet d'utiliser les attributs de l'événement pour toutes les exportations éligibles et notifie les utilisateurs qui ont souscrit aux alertes d'événement."
+msgstr "Que l'événement ait été publié ou non. La publication permet d'utiliser les attributs de l'événement pour toutes les exportations éligibles et notifie les utilisateurs qui ont souscrit aux alertes d'événement."
 
 #: View/Pages/doc/using_the_system.ctp:216
 msgid "List of Related Events"
@@ -7820,7 +7829,7 @@ msgstr "Liste des événements connexes"
 
 #: View/Pages/doc/using_the_system.ctp:217
 msgid "The list of relations is shown on the right hand side of the general event information. Events can be related by having one or more attributes that are exact matches. For example, if two events both contain a source IP attribute of 11.11.11.11 then they are related. The list of events that are related the currently shown one, are listed under \"Related Events\", as links (titled the related event's date and ID number) to the events themselves."
-msgstr "La liste des relations est montrée du côté droit de l'information générale de l'événement Les événements peuvent être liés en ayant un ou plusieurs attributs qui correspondent exactement.Par exemple, si deux événements contiennent tous les deux un attribut IP source du 11.11.11.11 La liste des événements qui sont liés à celui qui est actuellement affiché est répertoriée sous \"Événements liés\", sous la forme de liens (intitulés date et numéro d'identification de l'événement associé) aux événements eux-mêmes. "
+msgstr "La liste des relations est montrée du côté droit de l'information générale de l'événement. Les événements peuvent être liés en ayant un ou plusieurs attributs qui correspondent exactement. Par exemple, si deux événements contiennent tous les deux un attribut IP source du 11.11.11.11 alors ils sont liés. La liste des événements qui sont liés à celui qui est actuellement affiché est répertoriée sous \"Événements liés\", sous la forme de liens (intitulés date et numéro d'identification de l'événement associé) aux événements eux-mêmes."
 
 #: View/Pages/doc/using_the_system.ctp:218
 msgid "Data Element Toggles"
@@ -7828,7 +7837,7 @@ msgstr "L'élément de données bascule"
 
 #: View/Pages/doc/using_the_system.ctp:219
 msgid "You can control some of the data that is shown on this page using three toggles. The elements that can be disabled are the pivot threads, the attributes (and proposals) and the Discussions. You can collapse these elements and then expand them again using the same button."
-msgstr "Vous pouvez contrôler certaines des données affichées sur cette page à l'aide de trois bascules: les éléments pivotables, les attributs (et les propositions) et les discussions peuvent être désactivés. en utilisant le même bouton. "
+msgstr "Vous pouvez contrôler certaines des données affichées sur cette page à l'aide de trois bascules. Les éléments qui peuvent être désactivés sont les pivots, les attributs (et les propositions) et les discussions. Vous pouvez réduire ces éléments et les étendre en utilisant le même bouton. "
 
 #: View/Pages/doc/using_the_system.ctp:220
 msgid "Pivot Threads"
@@ -7836,15 +7845,15 @@ msgstr "Threads de Pivot"
 
 #: View/Pages/doc/using_the_system.ctp:221
 msgid "While moving from event to event through the relation links (a process that we refer to as pivoting), you create a path that shows which events you have traversed. This path is reset by leaving the event view and navigating elsewhere in the application or by deleting the root pivot element."
-msgstr "Lorsque vous passez d'un événement à l'autre à travers les liens de relation (processus que nous appelons pivotant), vous créez un chemin qui montre les événements que vous avez traversés.Ce chemin est réinitialisé en laissant la vue des événements et en naviguant ailleurs dans l'application ou en supprimant l'élément pivot racine. "
+msgstr "Lorsque vous passez d'un événement à l'autre à travers les liens de relation (processus que nous appelons pivotant), vous créez un chemin qui montre les événements que vous avez traversés. Ce chemin est réinitialisé en laissant la vue des événements et en naviguant ailleurs dans l'application ou en supprimant l'élément pivot racine. "
 
 #: View/Pages/doc/using_the_system.ctp:222
 msgid "Each event visited is represented by a bubble in the pivot thread graph, connected by lines that show how the user has arrived at the next connected event. It is possible to jump back to an earlier relation and pivot to another event through that, creating branches in the graph."
-msgstr "Chaque événement visité est représenté par une bulle dans le graphe du pivot, reliée par des lignes qui montrent comment l'utilisateur est arrivé au prochain évènement connecté Il est possible de revenir à une relation précédente et de passer à un autre évènement créer des branches dans le graphique. "
+msgstr "Chaque événement visité est représenté par une bulle dans le graphe du pivot, reliée par des lignes qui montrent comment l'utilisateur est arrivé au prochain évènement connecté. Il est possible de revenir à une relation précédente et de passer à un autre évènement, créant des branches dans le graphique. "
 
 #: View/Pages/doc/using_the_system.ctp:223
 msgid "The currently selected event is coloured blue in the graph. If you would like to delete an element from the graph (including all of elements that branch off of it) just click on the small x within a pivot bubble. For a deletion to be possible the following conditions have to be met"
-msgstr "L 'événement actuellement sélectionné est coloré en bleu dans le graphique .Si vous voulez supprimer un élément du graphique (y compris tous les éléments qui en sont dérivés), cliquez simplement sur le petit x dans une bulle de pivot. être possible, les conditions suivantes doivent être remplies "
+msgstr "L'événement actuellement sélectionné est coloré en bleu dans le graphique .Si vous voulez supprimer un élément du graphique (y compris tous les éléments qui en sont dérivés), cliquez simplement sur le petit x dans une bulle de pivot. Pour être possible, les conditions suivantes doivent être remplies "
 
 #: View/Pages/doc/using_the_system.ctp:225
 msgid "The pivot element to be deleted cannot be on the path that leads to the currently selected event"
@@ -7876,11 +7885,11 @@ msgstr "Le type de l'attribut ou de la proposition Pour une liste des catégorie
 
 #: View/Pages/doc/using_the_system.ctp:234
 msgid "The value or value-pair of the attribute. This is the main payload of the attribute, which is described by the category and type columns. For certain types of attributes that are made up of value-pairs the two parts will be split by a pipe (|), such as for filename|md5. The value field(s) are used by the correlation engine to find relations between events. In value-pair attributes both values are correlated individually."
-msgstr "La valeur ou la paire de valeurs de l'attribut, c'est la charge utile principale de l'attribut, qui est décrite par les colonnes de catégorie et de type Pour certains types d'attributs constitués de paires de valeurs, les deux parties seront divisées par un tube (|), comme pour le nom de fichier | md5 Le ou les champs de valeur sont utilisés par le moteur de corrélation pour trouver les relations entre les événements Dans les attributs de paire de valeurs, les deux valeurs sont corrélées individuellement. "
+msgstr "La valeur ou la paire de valeurs de l'attribut, c'est la charge utile principale de l'attribut, qui est décrite par les colonnes de catégorie et de type Pour certains types d'attributs constitués de paires de valeurs, les deux parties seront divisées par un pipe (|), comme pour le nom_de_fichier|md5. Le ou les champs de valeur sont utilisés par le moteur de corrélation pour trouver les relations entre les événements Dans les attributs de paire de valeurs, les deux valeurs sont corrélées individuellement. "
 
 #: View/Pages/doc/using_the_system.ctp:235
 msgid "Attributes can have a contextual comment to further describe the attribute. These comments are not used for correlation and are purely informative."
-msgstr "Les attributs peuvent avoir un commentaire contextuel pour décrire davantage l'attribut Ces commentaires ne sont pas utilisés pour la corrélation et sont purement informatifs."
+msgstr "Les attributs peuvent avoir un commentaire contextuel pour décrire davantage l'attribut. Ces commentaires ne sont pas utilisés pour la corrélation et sont purement informatifs."
 
 #: View/Pages/doc/using_the_system.ctp:236
 msgid "A list of the event IDs that also contain an attribute with the same value."
@@ -7888,11 +7897,11 @@ msgstr "Liste des ID d'événement qui contiennent également un attribut avec l
 
 #: View/Pages/doc/using_the_system.ctp:237
 msgid "Flags an attribute as an indicator of compromise, allowing it to be included in all of the eligible exports."
-msgstr "Marque un attribut comme indicateur de compromis, ce qui permet de l'inclure dans toutes les exportations éligibles."
+msgstr "Marque un attribut comme indicateur de compromission, ce qui permet de l'inclure dans toutes les exportations éligibles."
 
 #: View/Pages/doc/using_the_system.ctp:238
 msgid "Defines the distribution of the attribute individually. An attribute can have a different distribution level than the event. In any case, the lowest distribution level of the two is used."
-msgstr "Définit la distribution de l'attribut individuellement .Un attribut peut avoir un niveau de distribution différent de celui de l'événement. Dans tous les cas, le niveau de distribution le plus bas des deux est utilisé. "
+msgstr "Définit la distribution de l'attribut individuellement. Un attribut peut avoir un niveau de distribution différent de celui de l'événement. Dans tous les cas, le niveau de distribution le plus bas des deux est utilisé. "
 
 #: View/Pages/doc/using_the_system.ctp:239
 msgid "The user can interact with the events through these buttons, which will be further described in the next portion of the guide as they differ for attributes and proposals."
@@ -7912,7 +7921,7 @@ msgstr "Propositions à un événement"
 
 #: View/Pages/doc/using_the_system.ctp:244
 msgid "Each gray line at the end of the list represents a Proposal to an event. These are proposals for a new attribute, mostly unrelated to any of the currently existing attributes. If the creator of the event accepts one of these a new attribute will be created."
-msgstr "Chaque ligne grise à la fin de la liste représente une proposition à un événement .Ce sont des propositions pour un nouvel attribut, la plupart du temps sans lien avec l'un des attributs existants. Être créé."
+msgstr "Chaque ligne grise à la fin de la liste représente une proposition à un événement. Ce sont des propositions pour un nouvel attribut, la plupart du temps sans lien avec l'un des attributs existants. Si le créateur d'un évènement accepte l'une d'elles, un nouvel attribut sera créé."
 
 #: View/Pages/doc/using_the_system.ctp:245
 msgid "Proposals to an Attribute"
@@ -7958,11 +7967,11 @@ msgstr "Si une telle image existe pour l'organisation qui a posté le message, a
 
 #: View/Pages/doc/using_the_system.ctp:255
 msgid "The body of the post itself. This can also include automatically generated links to other events and threads as well as show quoted test in embedded bubbles. Editing an event will also append a post with a message indicating that it was edited together with the timestamp of the edit."
-msgstr "Le corps de la publication elle-même peut également inclure des liens générés automatiquement vers d'autres événements et threads, ainsi que le test des citations dans les bulles incorporées. horodatage de l'édition. "
+msgstr "Le corps de la publication elle-même. Il peut également inclure des liens générés automatiquement vers d'autres événements et threads, ainsi que le test des citations dans les bulles incorporées. Editer un évènement va également suffixer un message indiquant qu'il était édité avec un horodatage de l'édition. "
 
 #: View/Pages/doc/using_the_system.ctp:256
 msgid "The e-mail address of the poster if he/she is from the organisation as the current user. Alternatively a generated sting is shown that includes the user ID of the user, so that his/her e-mail address could remain hidden whilst still being identifiable."
-msgstr "L'adresse e-mail de l'annonceur s'il provient de l'organisation en tant qu'utilisateur actuel ou bien une alerte générée qui inclut l'identifiant de l'utilisateur, afin que son adresse e-mail puisse rester cachée tout en étant identifiable. "
+msgstr "L'adresse e-mail de l'annonceur s'il provient de l'organisation en tant qu'utilisateur actuel. De manière alternative, une chaîne de caractère générée qui inclut l'identifiant de l'utilisateur, afin que son adresse e-mail puisse rester cachée tout en étant identifiable. "
 
 #: View/Pages/doc/using_the_system.ctp:257
 msgid "Action buttons"
@@ -7982,7 +7991,7 @@ msgstr "Pagination"
 
 #: View/Pages/doc/using_the_system.ctp:261
 msgid "There are 5 posts visible on each event page, if there have been more messages posted, use the previous and next button to navigate through the thread. This will not reload the rest of the page."
-msgstr "Il y a 5 messages visibles sur chaque page de l'événement, s'il y a eu plus de messages postés, utilisez le bouton précédent et suivant pour naviguer dans le sujet." "Cela ne rechargera pas le reste de la page."
+msgstr "Il y a 5 messages visibles sur chaque page de l'événement, s'il y a eu plus de messages postés, utilisez le bouton précédent et suivant pour naviguer dans le sujet. Cela ne rechargera pas le reste de la page."
 
 #: View/Pages/doc/using_the_system.ctp:262
 msgid "Discussion Tags"
@@ -7990,7 +7999,7 @@ msgstr "Balises de discussion"
 
 #: View/Pages/doc/using_the_system.ctp:262
 msgid "Users can quote something by encapsulating it in [quote][/quote] tags, they can create a link to another event with the [event][/event] tags or to another discussion thread with [thread][/thread]."
-msgstr "Les utilisateurs peuvent citer quelque chose en l'encapsulant dans des balises [quote] [/ quote], ils peuvent créer un lien vers un autre événement avec les balises [event] [/ event] ou vers un autre fil de discussion avec [thread] [/ thread] "
+msgstr "Les utilisateurs peuvent citer quelque chose en l'encapsulant dans des balises [quote] [/quote], ils peuvent créer un lien vers un autre événement avec les balises [event] [/ event] ou vers un autre fil de discussion avec [thread] [/thread] "
 
 #: View/Pages/doc/using_the_system.ctp:263
 msgid "Quick Post"
@@ -8046,7 +8055,7 @@ msgstr "Utilisez les boutons vers la droite pour afficher l'événement auquel c
 
 #: View/Pages/doc/using_the_system.ctp:280
 msgid "This is the ID number of the event that the attribute is tied to. If an event belongs to your organisation, then this field will be coloured red."
-msgstr "" "C'est le numéro d'identification de l'événement auquel l'attribut est lié. Si un événement appartient à votre organisation, alors ce champ sera coloré en rouge. "
+msgstr "C'est le numéro d'identification de l'événement auquel l'attribut est lié. Si un événement appartient à votre organisation, alors ce champ sera coloré en rouge. "
 
 #: View/Pages/doc/using_the_system.ctp:281
 msgid "The organisation that has created the event."
@@ -8058,7 +8067,7 @@ msgstr "La catégorie de l'attribut, montrant ce que l'attribut décrit (par exe
 
 #: View/Pages/doc/using_the_system.ctp:283
 msgid "The type of the value contained in the attribute (for example a source IP address). For more information on types, go to section xy"
-msgstr "Le type de la valeur contenue dans l'attribut (par exemple une adresse IP source) .Pour plus d'informations sur les types, allez à la section xy"
+msgstr "Le type de la valeur contenue dans l'attribut (par exemple une adresse IP source). Pour plus d'informations sur les types, allez à la section xy"
 
 #: View/Pages/doc/using_the_system.ctp:284
 msgid "The actual value of the attribute, describing an aspect, defined by the category and type fields of the malware (for example 11.11.11.11)."
@@ -8074,7 +8083,7 @@ msgstr "Indique si l'attribut a été marqué pour la génération de signature 
 
 #: View/Pages/doc/using_the_system.ctp:287
 msgid "A set of buttons that allow you to view the event that the attribute is tied to, to edit the attribute (using the same view as what is used to set up attributes, but filled out with the attribute's current data) and a delete button."
-msgstr "Un ensemble de boutons qui vous permettent de voir l 'événement auquel l' attribut est lié, pour éditer l 'attribut (en utilisant la même vue que celle utilisée pour définir les attributs, mais rempli avec les données actuelles de l' attribut) et supprimer bouton."
+msgstr "Un ensemble de boutons qui vous permettent de voir l'événement auquel l'attribut est lié, pour éditer l'attribut (en utilisant la même vue que celle utilisée pour définir les attributs, mais rempli avec les données actuelles de l' attribut) et supprimer bouton."
 
 #: View/Pages/doc/using_the_system.ctp:289
 msgid "Searching for attributes"
@@ -8082,7 +8091,7 @@ msgstr "Recherche d'attributs"
 
 #: View/Pages/doc/using_the_system.ctp:290
 msgid "Apart from being able to list all events, it is also possible to search for data contained in the value field of an attribute, by clicking on the \"Search Attributes\" button."
-msgstr "En plus de pouvoir lister tous les événements, il est également possible de rechercher des données contenues dans le champ de valeur d'un attribut, en cliquant sur le bouton \" Attributs de recherche \"."
+msgstr "En plus de pouvoir lister tous les événements, il est également possible de rechercher des données contenues dans le champ de valeur d'un attribut, en cliquant sur le bouton \"Attributs de recherche\"."
 
 #: View/Pages/doc/using_the_system.ctp:291
 msgid "Search attribute"
@@ -8151,7 +8160,7 @@ msgstr "Vous pouvez choisir une couleur pour la balise en cliquant sur le champ 
 
 #: View/Pages/doc/using_the_system.ctp:312
 msgid "Newer users can easily be overwhelmed by having to manually populate events with attributes without any guidance. What sort of information should go into the event? What should be the category and type of a C2 IP? Templates allow users to use simple forms to populate events."
-msgstr "Les utilisateurs les plus récents peuvent facilement être submergés en remplissant manuellement des événements avec des attributs sans aucune indication Quel type d'information devrait contenir dans l'événement Quelle devrait être la catégorie et le type d'une adresse IP C2? peupler les événements. "
+msgstr "Les utilisateurs les plus récents peuvent facilement être submergés en remplissant manuellement des événements avec des attributs sans aucune indication Quel type d'information devrait contenir dans l'événement ? Quelle devrait être la catégorie et le type d'une adresse IP d'un C2? Les modèles permettent aux utilisateurs d'utiliser des formulauires simples pour peupler les événements. "
 
 #: View/Pages/doc/using_the_system.ctp:313
 msgid "Even though MISP ships with a few default templates, it is possible for users (with the appropriate templating privilege) to create new templates for their users or for all users of the instance. Let's look at how you can create a template."
@@ -8159,7 +8168,7 @@ msgstr "Même si MISP est fourni avec quelques modèles par défaut, il est poss
 
 #: View/Pages/doc/using_the_system.ctp:314
 msgid "First go to Event Actions - Add Template to go to the event creation view."
-msgstr "Allez d 'abord aux actions d' événements - Ajouter un modèle pour aller à la vue de création d 'événement."
+msgstr "Allez d'abord aux actions d'événements - Ajouter un modèle pour aller à la vue de création d'événement."
 
 #: View/Pages/doc/using_the_system.ctp:315 View/Templates/add.ctp:6
 msgid "Create Template"
@@ -8179,7 +8188,7 @@ msgstr "Le nom du modèle devrait décrire le type d'événement qu'il devrait �
 
 #: View/Pages/doc/using_the_system.ctp:319
 msgid "You can attach tags to the template - an event populated using the template would automatically receive the tag(s). Add new tags using the + button. If you change your mind about a tag you can remove it with the cross next to the tag name."
-msgstr "Vous pouvez attacher des étiquettes au modèle - un événement peuplé en utilisant le modèle recevrait automatiquement le (s) tag (s).) Ajouter de nouveaux tags en utilisant le bouton + Si vous changez d'avis sur un tag, vous pouvez le supprimer avec la croix le nom du tag. "
+msgstr "Vous pouvez attacher des étiquettes au modèle - un événement peuplé en utilisant le modèle recevrait automatiquement le(s) tag(s).) Ajouter de nouveaux tags en utilisant le bouton + Si vous changez d'avis sur un tag, vous pouvez le supprimer avec la croix à coté nom du tag. "
 
 #: View/Pages/doc/using_the_system.ctp:320
 msgid "A short description about the events that this template should be used for."
@@ -8196,7 +8205,7 @@ msgstr "Le modèle peut être configuré pour être utilisable par n'importe que
 
 #: View/Pages/doc/using_the_system.ctp:323
 msgid "Once the skeleton template is created, you can start populating the template with data. There are 3 types of elements that can be used during the creation of a template: attribute, file and text elements. Text elements divide the template into sections with an information field, followed by all of the attribute/file fields until a new text field is read. Don't worry about the order of the elements during creation, they can be re-arranged using drag &amp; drop. Let's look at the 3 element types"
-msgstr "Une fois que le modèle squelette est créé, vous pouvez commencer à remplir le modèle avec des données.Il existe 3 types d'éléments qui peuvent être utilisés lors de la création d'un modèle: les attributs, les fichiers et les éléments de texte. un champ d'information, suivi de tous les champs attributs / fichiers jusqu'à la lecture d'un nouveau champ de texte.Ne vous souciez pas de l'ordre des éléments lors de la création, vous pouvez les réorganiser en utilisant la fonction glisser & déposer. 3 types d'éléments "
+msgstr "Une fois que le modèle squelette est créé, vous pouvez commencer à remplir le modèle avec des données. Il existe 3 types d'éléments qui peuvent être utilisés lors de la création d'un modèle: les attributs, les fichiers et les éléments de texte. U champ d'information, suivi de tous les champs attributs/fichiers jusqu'à la lecture d'un nouveau champ de texte. Ne vous souciez pas de l'ordre des éléments lors de la création, vous pouvez les réorganiser en utilisant la fonction glisser & déposer. 3 types d'éléments "
 
 #: View/Pages/doc/using_the_system.ctp:324
 msgid "Attribute Element"
@@ -8216,7 +8225,7 @@ msgstr "Le nom du champ qui sera présenté à l'utilisateur."
 
 #: View/Pages/doc/using_the_system.ctp:329;342
 msgid "A brief description of the element. Make sure that you provide sufficient information to the user to make it obvious what is expected."
-msgstr "" "Une brève description de l'élément. Assurez-vous que vous fournissez suffisamment d'informations à l'utilisateur pour que ce qui est attendu soit évident. "
+msgstr "Une brève description de l'élément. Assurez-vous que vous fournissez suffisamment d'informations à l'utilisateur pour que ce qui est attendu soit évident. "
 
 #: View/Pages/doc/using_the_system.ctp:330
 msgid "The category used for any attributes created using this template element."
@@ -8313,11 +8322,11 @@ msgstr "Le nom de la section qui sera présentée à l'utilisateur."
 
 #: View/Pages/doc/using_the_system.ctp:353
 msgid "The description of the section. Explain briefly to the user what the following attribute/file elements will be dealing with. There are several ways to split a template into sections, try to have ease of use in mind while creating it."
-msgstr "La description de la section Expliquer brièvement à l'utilisateur à quoi les éléments d'attributs / fichiers suivants seront confrontés Il y a plusieurs façons de diviser un modèle en sections, essayez d'avoir la facilité d'utilisation à l'esprit lors de sa création."
+msgstr "La description de la section. Expliquez brièvement à l'utilisateur à quoi les éléments d'attributs/fichiers suivants serviront. Il y a plusieurs façons de diviser un modèle en sections, essayez d'avoir la facilité d'utilisation à l'esprit lors de sa création."
 
 #: View/Pages/doc/using_the_system.ctp:356
 msgid "Contacting the reporter"
-msgstr "Contacter le journaliste"
+msgstr "Contacter le rapporteur"
 
 #: View/Pages/doc/using_the_system.ctp:357
 msgid "To get in touch with the reporter of a previously registered event, just find the event for which you would like to contact the reporter by either finding it on the list of events, by finding it through one of its attributes or by finding it through a related event."
@@ -8325,7 +8334,7 @@ msgstr "Pour entrer en contact avec le reporter d'un évènement précédemment 
 
 #: View/Pages/doc/using_the_system.ctp:358
 msgid "Once the event is found and the event view opened, click the button titled \"Contact Reporter\". This will bring up a view where you can enter your message that is to be e-mailed to all members of the reporting organisation that subscribe to receiving such reports or the reporting user himself. Along with your message, the detailed information about the event in question will be included in the e-mail."
-msgstr "Une fois l 'événement trouvé et l' affichage de l 'événement ouvert, cliquez sur le bouton" Contact Reporter ", ce qui vous permettra de saisir votre message à envoyer par courrier électronique à tous les membres de l' organisation. qui souscrivent à la réception de ces rapports ou à l'utilisateur lui-même des rapports.Avec votre message, les informations détaillées sur l'événement en question seront inclus dans l'e-mail. "
+msgstr "Une fois l 'événement trouvé et l' affichage de l 'événement ouvert, cliquez sur le bouton \"Contacter le rapporteur\", ce qui vous permettra de saisir votre message à envoyer par courrier électronique à tous les membres de l' organisation. qui souscrivent à la réception de ces rapports ou à l'utilisateur lui-même des rapports.Avec votre message, les informations détaillées sur l'événement en question seront inclus dans l'e-mail. "
 
 #: View/Pages/doc/using_the_system.ctp:359
 msgid "Enter your message to the reporter and choose whether his/her entire organisation should get the message or not by ticking the check-box."
@@ -8349,7 +8358,7 @@ msgstr "Pour les utilisateurs qui n'ont pas accès à la clé d'authentification
 
 #: View/Pages/doc/using_the_system.ctp:368
 msgid "Depending on your server's configuration, you will be presented with one of two possible pages, depending on whether you have background processing enabled or not. (The setting on this instance is currently set to: <code>%s</code>)"
-msgstr "Selon la configuration de votre serveur, l'une des deux pages possibles s'affichera, selon que vous avez activé ou non le traitement en arrière-plan. (Le paramètre sur cette instance est actuellement défini sur: <code> %s </ code> ) "
+msgstr "Selon la configuration de votre serveur, l'une des deux pages possibles s'affichera, selon que vous avez activé ou non le traitement en arrière-plan. (Le paramètre sur cette instance est actuellement défini sur: <code>%s</code>) "
 
 #: View/Pages/doc/using_the_system.ctp:368
 msgid "On"
@@ -8365,7 +8374,7 @@ msgstr "Exporter une page avec des jobs d'arrière-plan"
 
 #: View/Pages/doc/using_the_system.ctp:370
 msgid "The page will list a set of export formats that you can immediately download as a file. Just click on the desired export format and MISP will start collecting all the data that you will receive in a file. Keep in mind that this can be a lengthy process. To avoid having to wait, consult with your instance's site administrator about enabling the background processing."
-msgstr "La page affichera un ensemble de formats d'export que vous pouvez immédiatement télécharger sous forme de fichier .Cliquez simplement sur le format d'exportation désiré et MISP commencera à collecter toutes les données que vous recevrez dans un fichier. Pour éviter de devoir attendre, consultez l'administrateur du site de votre instance pour activer le traitement en arrière-plan. "
+msgstr "La page affichera un ensemble de formats d'export que vous pouvez immédiatement télécharger sous forme de fichier. Cliquez simplement sur le format d'exportation désiré et MISP commencera à collecter toutes les données que vous recevrez dans un fichier. Pour éviter de devoir attendre, consultez l'administrateur du site de votre instance pour activer le traitement en arrière-plan. "
 
 #: View/Pages/doc/using_the_system.ctp:371;385
 msgid "Use the export features here to quickly download data in various formats"
@@ -8377,11 +8386,11 @@ msgstr "activé"
 
 #: View/Pages/doc/using_the_system.ctp:373
 msgid "If the background jobs are enabled, you'll be redirected to a different version of the export page. Here you will see a table with all of the major export formats and the current status of the cached export files. Keep in mind that these are generated on an organisation by organisation basis, so even though others have generated newer export caches your organisation may have an outdated cache. You can simply issue a generate command (by clicking the \"Generate\" button) on the desired export type and the background workers will start fetching and assembling your cache. A progress bar will show the progress of the export process."
-msgstr "Si les travaux d'arrière-plan sont activés, vous serez redirigé vers une autre version de la page d'exportation .Vous verrez ici une table avec tous les principaux formats d'exportation et l'état actuel des fichiers d'exportation mis en cache. elles sont générées par organisation, donc même si d'autres ont généré des caches d'export plus récents, votre organisation peut avoir un cache obsolète Vous pouvez simplement lancer une commande generate (en cliquant sur le bouton "Generate") sur le type d'export désiré et les travailleurs d'arrière-plan vont commencer à aller chercher et assembler votre cache.Une barre de progression montrera la progression du processus d'exportation. "
+msgstr "Si les travaux d'arrière-plan sont activés, vous serez redirigé vers une autre version de la page d'exportation .Vous verrez ici une table avec tous les principaux formats d'exportation et l'état actuel des fichiers d'exportation mis en cache. elles sont générées par organisation, donc même si d'autres ont généré des caches d'export plus récents, votre organisation peut avoir un cache obsolète Vous pouvez simplement lancer une commande generate (en cliquant sur le bouton \"Générer\") sur le type d'export désiré et les travailleurs d'arrière-plan vont commencer à aller chercher et assembler votre cache.Une barre de progression montrera la progression du processus d'exportation. "
 
 #: View/Pages/doc/using_the_system.ctp:374
 msgid "Once done, you can click \"Download\" to download the freshly generated cache file. If the cache is already up to date from before, then you don't have to regenerate the cache, just click on the \"download\" button."
-msgstr "Une fois terminé, vous pouvez cliquer sur \" Télécharger \"pour télécharger le fichier de cache fraîchement créé Si le cache est déjà à jour, alors vous n'avez pas besoin de régénérer le cache, cliquez simplement sur le" download " \" bouton."
+msgstr "Une fois terminé, vous pouvez cliquer sur \"Télécharger\" pour télécharger le fichier de cache fraîchement créé Si le cache est déjà à jour, alors vous n'avez pas besoin de régénérer le cache, cliquez simplement sur le bouton \"télécharger\"."
 
 #: View/Pages/doc/using_the_system.ctp:375
 msgid "You may have noticed that the TEXT export only has a generate button - this is because TEXT exports are made up of a lot of types of exports, all of which get generated together. To download any of these files, just click on any of the attribute types at the bottom of the table."
@@ -8522,15 +8531,15 @@ msgstr "Si l'instance à laquelle vous voulez vous connecter a sa propre chaîne
 
 #: View/Pages/doc/using_the_system.ctp:408
 msgid "If you are an administrator</b>, trying to allow another instance to connect to your own, it is vital that two rules are followed when setting up a synchronisation account"
-msgstr "Si vous êtes un administrateur </ b>, en essayant de permettre à une autre instance de se connecter à la vôtre, il est essentiel que deux règles soient respectées lors de la configuration d'un compte de synchronisation"
+msgstr "Si vous êtes un administrateur</b>, en essayant de permettre à une autre instance de se connecter à la vôtre, il est essentiel que deux règles soient respectées lors de la configuration d'un compte de synchronisation"
 
 #: View/Pages/doc/using_the_system.ctp:410
 msgid "The synchronisation user has to have the sync permission and full read/write/publish privileges turned on"
-msgstr "L'utilisateur de synchronisation doit avoir l'autorisation de synchronisation et les droits complets de lecture / écriture / publication sont activés"
+msgstr "L'utilisateur de synchronisation doit avoir l'autorisation de synchronisation et les droits complets de lecture/écriture/publication sont activés"
 
 #: View/Pages/doc/using_the_system.ctp:411
 msgid "Both the sync user and the organisation setting in your instance's Config/bootstrap.php file have to match the organisation identifier of the hosting organisation."
-msgstr "L'utilisateur de synchronisation et le paramètre d'organisation dans le fichier Config / bootstrap.php de votre instance doivent correspondre à l'identifiant d'organisation de l'organisation d'hébergement."
+msgstr "L'utilisateur de synchronisation et le paramètre d'organisation dans le fichier Config/bootstrap.php de votre instance doivent correspondre à l'identifiant d'organisation de l'organisation d'hébergement."
 
 #: View/Pages/doc/using_the_system.ctp:413
 msgid "Browsing the currently set up server connections and interacting with them"
@@ -8538,11 +8547,11 @@ msgstr "Parcourir les connexions au serveur actuellement configurées et interag
 
 #: View/Pages/doc/using_the_system.ctp:414
 msgid "If you ever need to change the data about the linked servers or remove any connections, you have the following options to view and manipulate the server connections, when clicking on List Servers: (you will be able to see a list of all servers that your server connects to, including the base address, the organisation running the server the last pushed and pulled event IDs and the control buttons.)."
-msgstr "Si vous avez besoin de modifier les données sur les serveurs liés ou de supprimer des connexions, vous avez les options suivantes pour afficher et manipuler les connexions du serveur, en cliquant sur List Servers: (vous pourrez voir une liste de tous les serveurs que votre serveur se connecte à, y compris l'adresse de base, l'organisation qui exécute le serveur les derniers ID d'événements enfoncés et tirés et les boutons de contrôle.). "
+msgstr "Si vous avez besoin de modifier les données sur les serveurs liés ou de supprimer des connexions, vous avez les options suivantes pour afficher et manipuler les connexions du serveur, en cliquant sur List Servers: (vous pourrez voir une liste de tous les serveurs que votre serveur se connecte à, y compris l'adresse de base, l'organisation qui exécute le serveur les derniers ID d'événements pushés et pullés et les boutons de contrôle.). "
 
 #: View/Pages/doc/using_the_system.ctp:415
 msgid "Apart from editing / deleting the link to the remote server, you can issue a push all or pull all command from here."
-msgstr "En dehors de la modification / suppression du lien vers le serveur distant, vous pouvez lancer une commande" pousser tout "ou" tirer tout "depuis ici."
+msgstr "En dehors de la modification / suppression du lien vers le serveur distant, vous pouvez lancer une commande \"Push tout\" ou \"Pull tout\" depuis ici."
 
 #: View/Pages/doc/using_the_system.ctp:417
 msgid "Editing the connection to the"
@@ -8570,7 +8579,7 @@ msgstr "En cliquant sur ce bouton, tous les événements susceptibles d'être po
 
 #: View/Pages/doc/using_the_system.ctp:420 View/Servers/index.ctp:87
 msgid "Pull all"
-msgstr "Tirez tout"
+msgstr "\"Pull\" tout"
 
 #: View/Pages/doc/using_the_system.ctp:420
 msgid "By clicking this button, all events that are set to be pull-able or full access on the remote server will be copied to this instance. Existing events will not be updated."
@@ -8614,11 +8623,11 @@ msgstr "Action du contrôleur invoquée"
 
 #: View/Pages/doc/using_the_system.ctp:477
 msgid "(1) Warning, there's a limit on the number of results when you call <code>index</code>."
-msgstr "(1) Attention, le nombre de résultats est limité lorsque vous appelez <code> index </ code>."
+msgstr "(1) Attention, le nombre de résultats est limité lorsque vous appelez <code> index </code>."
 
 #: View/Pages/doc/using_the_system.ctp:478
 msgid "(2) Attachments are included using base64 encoding below the <code>data</code> tag."
-msgstr "(2) Les pièces jointes sont incluses en utilisant le codage base64 sous la balise <code> data </ code>."
+msgstr "(2) Les pièces jointes sont incluses en utilisant le codage base64 sous la balise <code>data</code>."
 
 #: View/Pages/doc/using_the_system.ctp:481
 msgid "Example - Get single Event"
@@ -8688,7 +8697,7 @@ msgstr "En réponse à"
 
 #: View/Posts/add.ctp:32
 msgid "Insert a quote - just paste your quote between the [quote][/quote] tags."
-msgstr "Insérer une citation - il suffit de coller votre citation entre les balises [quote] [/ quote]".
+msgstr "Insérer une citation - il suffit de coller votre citation entre les balises [quote] [/quote]".
 
 #: View/Posts/add.ctp:32
 msgid "Quote"
@@ -8696,7 +8705,7 @@ msgstr "Citation"
 
 #: View/Posts/add.ctp:34
 msgid "Insert a link to a discussion thread - enter the thread's ID between the [thread][/thread] tags."
-msgstr "Insérer un lien vers un fil de discussion - entrer l'ID du fil entre les balises [fil] [/ fil]."
+msgstr "Insérer un lien vers un fil de discussion - entrer l'ID du fil entre les balises [fil] [/fil]."
 
 #: View/Posts/add.ctp:34
 msgid "Thread"
@@ -8704,7 +8713,7 @@ msgstr "Thread"
 
 #: View/Posts/add.ctp:35
 msgid "Insert a link [link][/link] tags."
-msgstr "Insérer un lien [link] [/ link] tags."
+msgstr "Insérer un lien [link] [/link] tags."
 
 #: View/Posts/add.ctp:35
 msgid "Link"
@@ -8712,7 +8721,7 @@ msgstr "Lien"
 
 #: View/Posts/add.ctp:36
 msgid "Insert a code [code][/code] tags."
-msgstr "Insérer un code [code] [/ code] tags."
+msgstr "Insérer un code [code] [/code] tags."
 
 #: View/Posts/add.ctp:36
 msgid "Code"
@@ -8724,7 +8733,7 @@ msgstr "Ajouter un import Regexp"
 
 #: View/Regexp/admin_add.ctp:10 View/Regexp/admin_edit.ctp:11
 msgid "Types to be affected by the filter (Setting 'all' will override the other settings)"
-msgstr "Types à affecter par le filtre (Le réglage 'all' remplacera les autres paramètres)"
+msgstr "Types à affecter par le filtre (Le réglage 'all'/'tous' remplacera les autres paramètres)"
 
 #: View/Regexp/admin_edit.ctp:4
 msgid "Edit Import Regexp"
@@ -8756,7 +8765,7 @@ msgstr "Nom de l'instance"
 
 #: View/Servers/add.ctp:16
 msgid "You can set this instance up as an internal instance by checking the checkbox below. This means that any synchronisation between this instance and the remote will not be automatically degraded as it would in a normal synchronisation scenario. Please make sure that you own both instances and that you are OK with this otherwise dangerous change."
-msgstr "Vous pouvez définir cette instance comme une instance interne en cochant la case ci-dessous, ce qui signifie que toute synchronisation entre cette instance et la télécommande ne sera pas automatiquement dégradée comme dans un scénario de synchronisation normal. instances et que vous êtes d'accord avec ce changement autrement dangereux. "
+msgstr "Vous pouvez définir cette instance comme une instance interne en cochant la case ci-dessous, ce qui signifie que toute synchronisation entre cette instance et celle distante ne sera pas automatiquement dégradée comme dans un scénario de synchronisation normal. instances et que vous êtes d'accord avec ce changement autrement dangereux. "
 
 #: View/Servers/add.ctp:19 View/Servers/edit.ctp:19
 msgid "Internal instance"
@@ -8784,7 +8793,7 @@ msgstr "Nom de l'organisation distante"
 
 #: View/Servers/add.ctp:56 View/Servers/edit.ctp:63
 msgid "Remote Organisation's Uuid"
-msgstr "Uuid de l'organisation distante"
+msgstr "UUID de l'organisation distante"
 
 #: View/Servers/add.ctp:93
 msgid "Server certificate file"
@@ -8796,7 +8805,7 @@ msgstr "Fichier de certificat client"
 
 #: View/Servers/add.ctp:104 View/Servers/edit.ctp:143
 msgid "Push rules:"
-msgstr "Pousser les règles:"
+msgstr "\"Push\" les règles:"
 
 #: View/Servers/add.ctp:105;111 View/Servers/edit.ctp:144;150
 msgid "Events with the following tags allowed: "
@@ -8816,7 +8825,7 @@ msgstr "Evénements avec les organisations suivantes bloquées:"
 
 #: View/Servers/add.ctp:110 View/Servers/edit.ctp:149
 msgid "Pull rules:"
-msgstr "Tirer des règles:"
+msgstr "\"Pull\" des règles:"
 
 #: View/Servers/add.ctp:144
 msgid "Unpublish new event (working with Pull event)."
@@ -8832,7 +8841,7 @@ msgstr "Vous pouvez également télécharger un fichier de certificat si l'insta
 
 #: View/Servers/edit.ctp:16
 msgid "You can set this instance up as an internal instance by checking the checkbox below. This means that any synchronisation between this instance and the remote will not be automatically degraded as it would in a normal synchronisation scenario. Please make sure that you own both instances and that you are OK with this otherwise dangerous change. This also requires that the current instance's host organisation and the remote sync organisation are the same."
-msgstr "Vous pouvez définir cette instance comme une instance interne en cochant la case ci-dessous, ce qui signifie que toute synchronisation entre cette instance et la télécommande ne sera pas automatiquement dégradée comme dans un scénario de synchronisation normal. et que vous êtes d'accord avec cette modification par ailleurs dangereuse.Cela nécessite également que l'organisation hôte de l'instance actuelle et l'organisation de synchronisation à distance soient les mêmes. "
+msgstr "Vous pouvez définir cette instance comme une instance interne en cochant la case ci-dessous, ce qui signifie que toute synchronisation entre cette instance et celle distante ne sera pas automatiquement dégradée comme dans un scénario de synchronisation normal, et que vous êtes d'accord avec cette modification par ailleurs dangereuse.Cela nécessite également que l'organisation hôte de l'instance actuelle et l'organisation de synchronisation à distance soient les mêmes. "
 
 #: View/Servers/edit.ctp:31
 msgid "Organisation Type"
@@ -8912,7 +8921,7 @@ msgstr "Explorer"
 
 #: View/Servers/index.ctp:86
 msgid "Pull updates to events that already exist locally"
-msgstr "Tirer les mises à jour des événements qui existent déjà localement"
+msgstr "\"Pull\" les mises à jour des événements qui existent déjà localement"
 
 #: View/Servers/preview_event.ctp:7
 msgid "You are currently viewing an event on the remote instance %s "
@@ -8944,47 +8953,47 @@ msgstr "Récupérer l'événement"
 
 #: View/Servers/pull.ctp:2
 msgid "Failed pulls"
-msgstr "Échec de l'extraction"
+msgstr "\"Pulls\" en éhec"
 
 #: View/Servers/pull.ctp:5
 msgid "No failed pulls"
-msgstr "Aucun tirage échoué"
+msgstr "Aucun \"pulls\" échoué"
 
 #: View/Servers/pull.ctp:13
 msgid "Succeeded pulls"
-msgstr "Les tirages réussis"
+msgstr "Les \"pulls\" réussis"
 
 #: View/Servers/pull.ctp:16
 msgid "No succeeded pulls"
-msgstr "Aucun succès réussi"
+msgstr "Aucun \"pull\" réussi"
 
 #: View/Servers/pull.ctp:24
 msgid "Proposals pulled"
-msgstr "Propositions retirées"
+msgstr "Propositions \"pulled\""
 
 #: View/Servers/pull.ctp:27
 msgid "No proposals pulled"
-msgstr "Aucune proposition retirée"
+msgstr "Aucune proposition \"pulled\""
 
 #: View/Servers/push.ctp:2
 msgid "Failed pushes"
-msgstr "Échec des poussées"
+msgstr "Échec des \"push\""
 
 #: View/Servers/push.ctp:5
 msgid "No failed pushes"
-msgstr "Aucune poussée échouée"
+msgstr "Aucun \"push\" en echec"
 
 #: View/Servers/push.ctp:13
 msgid "Succeeded pushes"
-msgstr "Succès réussi"
+msgstr "\"Push\" réussis"
 
 #: View/Servers/push.ctp:16
 msgid "No succeeded pushes"
-msgstr "Aucun succès réussi"
+msgstr "Aucun \"push\" réussi"
 
 #: View/Servers/server_settings.ctp:3
 msgid "Warning: app/Config/config.php is not writeable. This means that any setting changes made here will NOT be saved."
-msgstr "Avertissement: app / Config / config.php n'est pas accessible en écriture, ce qui signifie que les changements effectués ici ne seront PAS sauvegardés."
+msgstr "Avertissement: app/Config/config.php n'est pas accessible en écriture, ce qui signifie que les changements effectués ici ne seront PAS sauvegardés."
 
 #: View/Servers/server_settings.ctp:20
 msgid "To edit a setting, simply double click it."
@@ -9140,12 +9149,12 @@ msgstr "Récapitulatif et enregistrement"
 
 #: View/SharingGroups/add.ctp:12 View/SharingGroups/edit.ctp:12
 msgid "Example: Multinational sharing group"
-msgstr "Exemple: groupe de partage multinationale"
+msgstr "Exemple: groupe de partage multinational"
 
 #: View/SharingGroups/add.ctp:13 View/SharingGroups/edit.ctp:13
 #: View/SharingGroups/index.ctp:29
 msgid "Releasable to"
-msgstr "Releasable to"
+msgstr "Diffusable à"
 
 #: View/SharingGroups/add.ctp:14 View/SharingGroups/edit.ctp:14
 msgid "Example: Community1, Organisation1, Organisation2"
@@ -9157,7 +9166,7 @@ msgstr "Une description du groupe de partage."
 
 #: View/SharingGroups/add.ctp:18 View/SharingGroups/edit.ctp:18
 msgid "Active sharing groups can be selected by users of the local instance when creating events. Generally, sharing groups received through synchronisation will have this disabled until manually enabled."
-msgstr "Les groupes de partage actifs peuvent être sélectionnés par les utilisateurs de l'instance locale lors de la création d'événements Généralement, les groupes de partage reçus via la synchronisation seront désactivés jusqu'à ce qu'ils soient activés manuellement."
+msgstr "Les groupes de partage actifs peuvent être sélectionnés par les utilisateurs de l'instance locale lors de la création d'événements. Généralement, les groupes de partage reçus via la synchronisation seront désactivés jusqu'à ce qu'ils soient activés manuellement."
 
 #: View/SharingGroups/add.ctp:19 View/SharingGroups/edit.ctp:19
 msgid "Make the sharing group selectable (active)"
@@ -9186,7 +9195,7 @@ msgstr "Ajouter une organisation distante"
 #: View/SharingGroups/add.ctp:33 View/SharingGroups/edit.ctp:33
 #: View/SharingGroups/view.ctp:44
 msgid "Extend"
-msgstr "Extension"
+msgstr "Etendre"
 
 #: View/SharingGroups/add.ctp:37;58;74 View/SharingGroups/edit.ctp:37;66;82
 msgid "Previous page"
@@ -9198,7 +9207,7 @@ msgstr "Activer le mode itinérant pour ce groupe de partage Le mode itinérance
 
 #: View/SharingGroups/add.ctp:43 View/SharingGroups/edit.ctp:51
 msgid "<b>Enable roaming mode</b> for this sharing group (pass the event to any connected instance where the sync connection is tied to an organisation contained in the SG organisation list)."
-msgstr "<b>Activer le mode itinérant </ b> pour ce groupe de partage (transmettre l'événement à une instance connectée où la connexion de synchronisation est liée à une organisation contenue dans la liste d'organisation SG)."
+msgstr "<b>Activer le mode itinérant </b> pour ce groupe de partage (transmettre l'événement à une instance connectée où la connexion de synchronisation est liée à une organisation contenue dans la liste d'organisation SG)."
 
 #: View/SharingGroups/add.ctp:47 View/SharingGroups/edit.ctp:55
 msgid "Add instance"
@@ -9215,11 +9224,11 @@ msgstr "<span class =\"bold\"> Général: </span> Vous êtes sur le point de cr�
 
 #: View/SharingGroups/add.ctp:64
 msgid "Local organisations: </span>It will be visible to <span id=\"summarylocal\" class=\"red bold\"></span>, from which <span id=\"summarylocalextend\" class=\"red bold\"></span> can extend the sharing group."
-msgstr "Organisations locales: </ span> <span id =\" summarylocal \"class = \" red bold \"> </ span>, à partir de laquelle <span id = \" summarylocalextend \"class = \"bold bold \"> </ span> peut étendre le groupe de partage. "
+msgstr "Organisations locales: </span> Ce sera visible pour <span id=\"summarylocal\" class=\"red bold\"> </span>, à partir de laquelle <span id = \" summarylocalextend \"class=\"red bold\"> </span> peut étendre le groupe de partage. "
 
 #: View/SharingGroups/add.ctp:65
 msgid "External organisations: </span>It will also be visible to <span id=\"summaryexternal\" class=\"red bold\"></span>, out of which <span id=\"summaryexternalextend\" class=\"red bold\"></span> can extend the sharing group."
-msgstr "Organisations externes: </span> Il sera également visible dans <span id=\"summaryexternal \"class =\"red bold\"> </span>, dont <span id=\"summaryexternalextend\" class =\"red bold\"> </span> peut étendre le groupe de partage. "
+msgstr "Organisations externes: </span> Il sera également visible dans <span id=\"summaryexternal \"class=\"red bold\"> </span>, dont <span id=\"summaryexternalextend\" class=\"red bold\"></span> peut étendre le groupe de partage. "
 
 #: View/SharingGroups/add.ctp:66
 msgid "<span class=\"bold\">Synchronisation: </span>Furthermore, events are automatically pushed to: <span id=\"summaryservers\" class=\"red bold\"></span>"
@@ -9374,7 +9383,7 @@ msgstr "Sélectionner le tag"
 
 #: View/Tags/ajax/select_tag.ctp:16
 msgid "search tags…"
-msgstr "balises de recherche ..."
+msgstr "recherche des tags ..."
 
 #: View/Tags/ajax/select_tag.ctp:25
 msgid "Attach tag"
@@ -9414,7 +9423,7 @@ msgstr "Bibliothèque de taxonomie"
 
 #: View/Tasks/index.ctp:3
 msgid "Here you can schedule pre-defined tasks that will be executed every x hours. You can alter the date and time of the next scheduled execution and the frequency at which it will be repeated (expressed in hours). If you set the frequency to 0 then the task will not be repeated. To change and of the above mentioned settings just click on the appropriate field and hit update all when you are done editing the scheduled tasks."
-msgstr "Ici vous pouvez planifier des tâches prédéfinies qui seront exécutées toutes les x heures .Vous pouvez modifier la date et l'heure de la prochaine exécution programmée et la fréquence à laquelle elle sera répétée (exprimée en heures). à 0 alors la tâche ne sera pas répétée.Pour changer et des paramètres mentionnés ci-dessus, cliquez simplement sur le champ approprié et cliquez sur mise à jour lorsque vous avez fini d'éditer les tâches planifiées. "
+msgstr "Ici vous pouvez planifier des tâches prédéfinies qui seront exécutées toutes les x heures. Vous pouvez modifier la date et l'heure de la prochaine exécution programmée et la fréquence à laquelle elle sera répétée (exprimée en heures). Si vous réglez à 0 alors la tâche ne sera pas répétée. Pour changer un des paramètres mentionnés ci-dessus, cliquez simplement sur le champ approprié et cliquez sur mise à jour lorsque vous avez fini d'éditer les tâches planifiées. "
 
 #: View/Tasks/index.ctp:51
 msgid "Set frequency timer for scheduled task"
@@ -9442,7 +9451,7 @@ msgstr "Activer tous les tags"
 
 #: View/Taxonomies/index.ctp:36
 msgid "Are you sure you want to enable every tag associated to this taxonomy?"
-msgstr "Êtes-vous sûr de vouloir activer chaque balise associée à cette taxonomie?"
+msgstr "Êtes-vous sûr de vouloir activer chaque tag associé à cette taxonomie?"
 
 #: View/Taxonomies/index.ctp:41 View/Taxonomies/view.ctp:29;143
 msgid "Disable"
@@ -9494,7 +9503,7 @@ msgstr "Suppression de la taxonomie"
 
 #: View/Taxonomies/ajax/taxonomy_delete_confirmation.ctp:11
 msgid "Are you sure you want to delete Taxonomy #<?php echo h($id); ?>?<br /> Associated tags will not be removed. You can reload the taxonomy at any time by updating your taxonomies."
-msgstr "Etes-vous sûr de vouloir supprimer la taxonomie # <? php echo h ($ id);?>? <br /> Les tags associés ne seront pas supprimés Vous pouvez recharger la taxonomie à tout moment en mettant à jour vos taxonomies."
+msgstr "Etes-vous sûr de vouloir supprimer la taxonomie #<?php echo h($id);?>?<br /> Les tags associés ne seront pas supprimés Vous pouvez recharger la taxonomie à tout moment en mettant à jour vos taxonomies."
 
 #: View/Taxonomies/ajax/taxonomy_mass_confirmation.ctp:13
 msgid "Create Tags"
@@ -9545,7 +9554,7 @@ msgstr "Sélectionner le type"
 #: View/TemplateElements/ajax/template_element_add_attribute.ctp:43
 #: View/TemplateElements/ajax/template_element_edit_attribute.ctp:42
 msgid "Some categories can use complex types. A complex type can define attributes that can be described by various different types, the system will parse the user's entry and determine the most suitable type for the found attributes. The list of valid types for the chosen complex type is shown below."
-msgstr "Certaines catégories peuvent utiliser des types complexes Un type complexe peut définir des attributs qui peuvent être décrits par différents types, le système analysera l'entrée de l'utilisateur et déterminera le type le plus approprié pour les attributs trouvés. le type complexe est montré ci-dessous. "
+msgstr "Certaines catégories peuvent utiliser des types complexes Un type complexe peut définir des attributs qui peuvent être décrits par différents types, le système analysera l'entrée de l'utilisateur et déterminera le type le plus approprié pour les attributs trouvés. Le type complexe est montré ci-dessous. "
 
 #: View/TemplateElements/ajax/template_element_add_attribute.ctp:47
 msgid "Use complex types"
@@ -9601,7 +9610,7 @@ msgstr "Ajouter un élément de fichier au modèle"
 #: View/TemplateElements/ajax/template_element_add_file.ctp:34
 #: View/TemplateElements/ajax/template_element_edit_file.ctp:34
 msgid "If a file is flagged as malicious then it will automatically be encrypted."
-msgstr "Si un fichier est marqué comme malveillant, il sera automatiquement crypté."
+msgstr "Si un fichier est marqué comme malveillant, il sera automatiquement chiffré."
 
 #: View/TemplateElements/ajax/template_element_add_file.ctp:53
 #: View/TemplateElements/ajax/template_element_edit_file.ctp:53
@@ -9663,7 +9672,7 @@ msgstr "Remplir les résultats du modèle"
 
 #: View/Templates/populate_event_from_template_attributes.ctp:3
 msgid "Below you can see the attributes that are to be created based on the data that you have entered into the template. If you are satisfied with the result, click \"Finalise\". Otherwise, click \"Modify\"."
-msgstr "Ci-dessous vous pouvez voir les attributs qui doivent être créés en fonction des données que vous avez entrées dans le modèle Si vous êtes satisfait du résultat, cliquez sur \" Finaliser \"Sinon, cliquez sur \" Modifier \"."
+msgstr "Ci-dessous vous pouvez voir les attributs qui doivent être créés en fonction des données que vous avez entrées dans le modèle Si vous êtes satisfait du résultat, cliquez sur \"Finaliser\"Sinon, cliquez sur \"Modifier\"."
 
 #: View/Templates/populate_event_from_template_attributes.ctp:37
 msgid "Finalise"
@@ -9793,11 +9802,11 @@ msgstr "Après avoir sélectionné l'action, choisissez qui devrait être la cib
 
 #: View/Users/admin_email.ctp:11
 msgid "You can then specify (if eligible) what the e-mail address of the target is (for existing users you can choose from a dropdown menu)."
-msgstr "Vous pouvez ensuite spécifier (si éligible) quelle est l'adresse e-mail de la cible (pour les utilisateurs existants, vous pouvez choisir dans un menu déroulant)."
+msgstr "Vous pouvez ensuite spécifier (si éligible) quelle est l'adresse e-mail de destination (pour les utilisateurs existants, vous pouvez choisir dans un menu déroulant)."
 
 #: View/Users/admin_email.ctp:12
 msgid "In the case of a new user, you can specify the future user's gpg key, to send his/her new key in an encrypted e-mail."
-msgstr "Dans le cas d'un nouvel utilisateur, vous pouvez spécifier la clé gpg de l'utilisateur à venir, pour envoyer sa nouvelle clé dans un e-mail crypté."
+msgstr "Dans le cas d'un nouvel utilisateur, vous pouvez spécifier la clé gpg de l'utilisateur à venir, pour envoyer sa nouvelle clé dans un e-mail chiffré."
 
 #: View/Users/admin_email.ctp:13
 msgid ""
@@ -9909,7 +9918,7 @@ msgstr "Changement de mot de passe"
 
 #: View/Users/check_and_correct_pgps.ctp:2
 msgid "Failed GPGs?"
-msgstr "Les GPG ont échoué?"
+msgstr "GPG deffectueux ?"
 
 #: View/Users/check_and_correct_pgps.ctp:4
 msgid "No failed composites"
@@ -9957,7 +9966,7 @@ msgstr "Aller à gauche"
 
 #: View/Users/statistics.ctp:66 View/Users/statistics_data.ctp:71
 msgid "Go right"
-msgstr "Allez-y"
+msgstr "Allez à droite"
 
 #: View/Users/statistics.ctp:113 View/Users/statistics_data.ctp:118
 msgid "The above graph will not work correctly in Compatibility mode. Please make sure that it is disabled in your Internet Explorer settings."
@@ -10033,7 +10042,7 @@ msgstr "Demande l'accès à l'API"
 
 #: View/Users/view.ctp:50
 msgid "NIDS Start SID"
-msgstr "NID Start SID"
+msgstr "NIDS Start SID"
 
 #: View/Users/ajax/fetchpgpkey.ctp:2
 msgid "Choose the key that you would like to use"
@@ -10117,4 +10126,4 @@ msgstr "Modifier la liste blanche des signatures"
 
 #: View/Whitelists/admin_index.ctp:3 View/Whitelists/index.ctp:3
 msgid "Regex entries (in the standard php regex /{regex}/{modifier} format) entered below will restrict matching attributes from being included in the IDS flag sensitive exports (such as NIDS exports)."
-msgstr "Les entrées Regex (au format regex php standard / {regex} / {modificateur} entrées ci-dessous empêcheront les attributs correspondants d'être inclus dans les exports sensibles au drapeau IDS (tels que les exports NIDS)."
+msgstr "Les entrées Regex (au format regex php standard /{regex}/{modificateur}) entrées ci-dessous empêcheront les attributs correspondants d'être inclus dans les exports sensibles au flag IDS (tels que les exports NIDS)."
